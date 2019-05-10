@@ -290,9 +290,13 @@ header {
     background-color: rgba(255, 255, 255, 0.98);
     box-shadow: 0 2px 2px #efefef;
     z-index: 9999;
+    background-color: cornsilk;
 }
 
-.sticky .main-nav { margin-top: 18px; }
+.sticky .main-nav {
+  margin-top: 18px;
+  margin-bottom: 16px;
+}
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
@@ -382,7 +386,7 @@ header {
 }
 
 .app-screen {
-    width: 40%;
+    width: 100%;
 }
 
 .works-step {
