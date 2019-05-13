@@ -678,3 +678,10 @@ footer p {
 .js--wp-3.animated {
     opacity: 1;
 }
+
+@media screen and (max-width: 768px) {
+	.class-iframe {
+    	width: 100%;
+    	border: none;
+    }
+}
